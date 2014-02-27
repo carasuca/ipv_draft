@@ -1,0 +1,40 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ipv", "ipv\ipv.vcxproj", "{87195D71-9C08-4933-83AD-E6CFCAE710E5}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ipvcli", "ipvcli\ipvcli.vcxproj", "{59D8CC19-991B-4E24-99DA-33AFB45B29A6}"
+	ProjectSection(ProjectDependencies) = postProject
+		{87195D71-9C08-4933-83AD-E6CFCAE710E5} = {87195D71-9C08-4933-83AD-E6CFCAE710E5}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "example", "plugins\example\example.vcxproj", "{A5F9C7DB-FA3F-4EBA-9F78-AFA5E94E9ECE}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "plugins", "plugins", "{DE37A336-1A6A-4C86-9B69-97B2E232F6ED}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{87195D71-9C08-4933-83AD-E6CFCAE710E5}.Debug|Win32.ActiveCfg = Debug|Win32
+		{87195D71-9C08-4933-83AD-E6CFCAE710E5}.Debug|Win32.Build.0 = Debug|Win32
+		{87195D71-9C08-4933-83AD-E6CFCAE710E5}.Release|Win32.ActiveCfg = Release|Win32
+		{87195D71-9C08-4933-83AD-E6CFCAE710E5}.Release|Win32.Build.0 = Release|Win32
+		{59D8CC19-991B-4E24-99DA-33AFB45B29A6}.Debug|Win32.ActiveCfg = Debug|Win32
+		{59D8CC19-991B-4E24-99DA-33AFB45B29A6}.Debug|Win32.Build.0 = Debug|Win32
+		{59D8CC19-991B-4E24-99DA-33AFB45B29A6}.Release|Win32.ActiveCfg = Release|Win32
+		{59D8CC19-991B-4E24-99DA-33AFB45B29A6}.Release|Win32.Build.0 = Release|Win32
+		{A5F9C7DB-FA3F-4EBA-9F78-AFA5E94E9ECE}.Debug|Win32.ActiveCfg = Debug|Win32
+		{A5F9C7DB-FA3F-4EBA-9F78-AFA5E94E9ECE}.Debug|Win32.Build.0 = Debug|Win32
+		{A5F9C7DB-FA3F-4EBA-9F78-AFA5E94E9ECE}.Release|Win32.ActiveCfg = Release|Win32
+		{A5F9C7DB-FA3F-4EBA-9F78-AFA5E94E9ECE}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{A5F9C7DB-FA3F-4EBA-9F78-AFA5E94E9ECE} = {DE37A336-1A6A-4C86-9B69-97B2E232F6ED}
+	EndGlobalSection
+EndGlobal
